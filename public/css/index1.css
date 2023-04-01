@@ -1,0 +1,48 @@
+html {
+  max-width: 720px;
+}
+
+body {
+  background: rgb(238, 242, 215);
+}
+
+.card-dark {
+  background: powderblue;
+}
+
+.item {
+  color: red;
+}
+
+.item:first-child {
+  color: green;
+}
+
+.item:last-child {
+  color: blue;
+}
+
+.item:first-of-type {
+  color: rgb(10, 2, 255);
+}
+
+.item:last-of-type {
+  color: red;
+}
+
+.item:only-of-type {
+  color: green;
+}
+
+.item:nth-of-type(1) {
+  color: blueviolet;
+}
+
+p:not(.item) {
+  color: chartreuse;
+}
+
+p:empty {
+  height: 10px;
+  background: red;
+}
