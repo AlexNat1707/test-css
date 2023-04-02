@@ -1,0 +1,63 @@
+html {
+  max-width: 720px;
+}
+
+body {
+  background: rgb(238, 242, 215);
+}
+
+.card-dark {
+  background: powderblue;
+}
+
+.input-dark {
+  background: grey;
+}
+
+.input-dark[required] {
+  background: red;
+}
+
+.input-dark[type="number"] {
+  background: green;
+}
+
+.small-img[alt~="small"] {
+  height: 500px;
+}
+
+a[rel~="external"] {
+  color: red;
+}
+
+button[class|="btn"] {
+  background: rgb(108, 108, 108);
+}
+
+a[class*="btn"] {
+  background: rgb(255, 0, 0);
+}
+
+a[class*="big"] {
+  background: blue;
+}
+
+.btn::first-letter {
+  color: red;
+}
+
+.big-text::first-line {
+  color: purple;
+}
+
+.input-dark::placeholder {
+  color:darkorange;
+  background: white;
+}
+
+.big-text::before,
+.big-text::after {
+  content: "$$$";
+  color: green;
+  background: yellow;
+}
