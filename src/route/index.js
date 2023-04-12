@@ -42,5 +42,29 @@ router.get('/index2', function (req, res) {
 
 // ================================================================
 
+router.get('/index3', function (req, res) {
+  // res.render генерує нам HTML сторінку
+
+  //            ↙ cюди вводимо назву файлу з сontainer
+  res.render('index3', {
+    layout: "index3",
+  })
+  //                  ↑↑ сюди вводимо JSON дані
+})
+
+// ================================================================
+
+router.get('/index4', function (req, res) {
+  // res.render генерує нам HTML сторінку
+
+  //            ↙ cюди вводимо назву файлу з сontainer
+  res.render('index4', {
+    layout: "index4",
+  })
+  //                  ↑↑ сюди вводимо JSON дані
+})
+
+// ================================================================
+
 // Підключаємо роутер до бек-енду
 module.exports = router
