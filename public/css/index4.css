@@ -1,0 +1,24 @@
+html {
+  max-width: 720px;
+}
+
+body {
+  background: white;
+}
+
+.card > p {
+  color: rgb(15, 140, 34);
+  -webkit-text-fill-color: red;
+  -webkit-text-stroke: 1px blue;
+  direction: ltr;
+
+  text-align: center;
+  letter-spacing: 0.5em;
+  text-decoration: underline dotted red;
+}
+
+.test {
+  text-align: center;
+  color: green;
+  text-decoration: underline dashed red;
+}
