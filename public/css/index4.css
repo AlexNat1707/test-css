@@ -22,3 +22,22 @@ body {
   color: green;
   text-decoration: underline dashed red;
 }
+* {
+  font-family: "Roboto" Arial, Helvetica, sans-serif;
+  font-size: 18px
+}
+
+.kiano {
+  /* font-weight: lighter;
+  font-style: italic;
+  font-display: swap;
+  text-align: justify;
+  font-size: larger;
+  text-rendering: optimizeSpeed; */
+  text-align-last: justify;
+}
+
+
+.darkLord {
+  font-optical-sizing: auto;
+}
